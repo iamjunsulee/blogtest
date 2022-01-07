@@ -83,7 +83,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: metaConfig.icon,
       },
     },
@@ -96,8 +96,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://your-blog.netlify.app',
-        sitemap: 'https://your-blog.netlify.app/sitemap.xml',
+        host: 'https://jjunlog.netlify.app',
+        sitemap: 'https://jjunlog.netlify.app/sitemap.xml',
         policy: [
           {
             userAgent: '*',
