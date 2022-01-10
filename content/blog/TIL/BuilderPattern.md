@@ -4,8 +4,6 @@ date: 2021-04-19 11:29:00
 category: 'TIL'
 draft: false
 ---
-
-# Builder Pattern
 정적 팩토리 메서드와 생성자 모두 매개변수가 많을 경우 적절히 대처하기 어렵다. 
 
 ### 점층적 생성자 패턴

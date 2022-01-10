@@ -4,8 +4,7 @@ date: 2021-04-21 12:48:00
 category: 'TIL'
 draft: false
 ---
-
-# 인스턴스화를 막으려거든 private 생성자를 사용하라
+## 인스턴스화를 막으려거든 private 생성자를 사용하라
 java.lang.Math와 java.util.Arrays처럼 정적 필드와 정적 메서드만을 담은 클래스를 만들고 싶은 경우, private 생성자를 사용해야 한다.
 ```java
 public final class Math {

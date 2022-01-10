@@ -4,8 +4,6 @@ date: 2021-01-15 17:21:13
 category: 'TIL'
 draft: false
 ---
-# Git 명령어
-
 Git을 사용하기 위한 Tool로는 sourcetree, fork 같은 GUI 클라이언트나 window 환경에서 cmd.exe, mac 환경에서 Terminal.app 같은 터미널 프로그램이 있다.  
 나는 cmd 창에서 직접 명령어를 입력하는 것을 선호하는 편이다. 그 이유는 명확하다.  
 GUI tool은 시각적으로 확인할 수 있는 점에서 정말 편하고 좋다. 하지만 내가 쉽게 누르는 그 버튼들이 실제로 어떤 명령어를 통해 동작하는 것인지 나는 알지 못한다.  
