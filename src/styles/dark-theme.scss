@@ -10,6 +10,12 @@ body.dark {
     .custom-hr {
         background: $dark-theme-gradient
     }
+
+    .thumbnail-hr {
+        background: $dark-theme-gradient;
+        margin-top: 50px;
+    }
+
     // home
     .home-header {
         color: $dark-light-font-color;
