@@ -7,12 +7,12 @@ import { Head } from '../components/head'
 import { PostTitle } from '../components/post-title'
 import { PostDate } from '../components/post-date'
 import { PostContainer } from '../components/post-container'
-import { SocialShare } from '../components/social-share'
 import { SponsorButton } from '../components/sponsor-button'
 import { Bio } from '../components/bio'
 import { PostNavigator } from '../components/post-navigator'
 import { Disqus } from '../components/disqus'
 import { Utterances } from '../components/utterances'
+import { TableOfContents } from '../components/toc'
 import * as ScrollManager from '../utils/scroll'
 
 import '../styles/code.scss'
@@ -36,6 +36,7 @@ export default ({ data, pageContext, location }) => {
       <PostTitle title={postTitle} />
       <PostDate date={date} />
       <PostContainer html={post.html} />
+      <TableOfContents toc={post.tableOfContents} />
       {!!sponsor.buyMeACoffeeId && (
         <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
       )}
@@ -75,6 +76,7 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 280)
       html
+      tableOfContents
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
