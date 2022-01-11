@@ -5,7 +5,7 @@ category: 'TIL'
 draft: false
 ---
 
-### DispatcherServlet 동작원리
+## DispatcherServlet 동작원리
 - HandlerMapping : Request에 맞는 Handler를 찾아서 매핑해준다.
     - BeanNameUrlHandlerMapping
     - RequestMappingHandlerMapping
@@ -31,7 +31,7 @@ draft: false
 
 참고 : <https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#spring-web>
 <br></br>
-### 처리순서
+## 처리순서
 1. 클라이언트가 서버에 어떤 요청을 하면 DispatcherServlet(front controller 역할)이 요청을 가로챈다.
 2. 요청을 처리할 수 있는 Handler를 찾는다.
 3. 등록되어있는 Adapter 중에 해당 Handler를 실행시킬 수 있는 HandlerAdapter를 찾는다.
