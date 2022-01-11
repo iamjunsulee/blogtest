@@ -2,6 +2,17 @@ body.light {
     background-color: $light-background-color;
     text-shadow: $light-text-shadow;
 
+    .toc-container {
+        .toc-content {
+            color: $dark-gray;
+            ul > li {
+                a {
+                    color: $dark-gray;
+                }
+            }
+        }
+    }
+
     .top {
         background: $light-theme-gradient
     }

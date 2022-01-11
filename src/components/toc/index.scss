@@ -1,5 +1,12 @@
-@import '../../styles/variables.scss';
+.toc-container {
+  position: fixed;
+  right: 5vw;
+  top: 6em;
+  width: calc((100vw - 800px) / 2 - 50px);
 
-.toc {
-  position: sticky;
+  ul > li {
+    a {
+      text-overflow: ellipsis;
+    }
+  }
 }

@@ -3,6 +3,17 @@ body.dark {
     text-shadow: $dark-text-shadow;
     color: $dark-light-font-color;
 
+    .toc-container {
+        .toc-content {
+            color: $dark-light-font-color;
+            ul > li {
+                a {
+                    color: $dark-light-font-color;
+                }
+            }
+        }
+    }
+
     .top {
         background: $dark-theme-gradient
     }
