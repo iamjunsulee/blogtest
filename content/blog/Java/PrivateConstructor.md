@@ -1,7 +1,7 @@
 ---
 title: 'private 생성자'
 date: 2021-04-21 12:48:00
-category: 'TIL'
+category: 'Java'
 draft: false
 ---
 ## 인스턴스화를 막으려거든 private 생성자를 사용하라

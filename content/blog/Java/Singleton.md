@@ -1,7 +1,7 @@
 ---
 title: '싱글턴 패턴'
 date: 2021-04-21 12:38:00
-category: 'TIL'
+category: 'Java'
 draft: false
 ---
 ## private 생성자나 열거 타입으로 싱글턴임을 보증하라

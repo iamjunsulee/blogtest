@@ -1,7 +1,7 @@
 ---
 title: 'DispatcherServlet(2)'
 date: 2021-01-14 13:10:00
-category: 'TIL'
+category: 'JSP'
 draft: false
 ---
 

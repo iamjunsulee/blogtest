@@ -1,7 +1,7 @@
 ---
 title: 'Git 명령어'
 date: 2021-01-15 17:21:13
-category: 'TIL'
+category: 'Git'
 draft: false
 ---
 Git을 사용하기 위한 Tool로는 sourcetree, fork 같은 GUI 클라이언트나 window 환경에서 cmd.exe, mac 환경에서 Terminal.app 같은 터미널 프로그램이 있다.  

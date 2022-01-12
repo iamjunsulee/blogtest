@@ -1,7 +1,7 @@
 ---
 title: 'Servlet에서 IOC Container 사용하는 법'
 date: 2021-01-10 14:10:00
-category: 'TIL'
+category: 'JSP'
 draft: false
 ---
 Spring Framework 기반의 어플리케이션에선 bean 객체를 갖고 오기 위해 GenericApplicationContext 설정을 참조한다. 그렇게 생성된 context 객체의 getBean 메소드를 통해 원하는 bean 객체를 참조할 수 있다.

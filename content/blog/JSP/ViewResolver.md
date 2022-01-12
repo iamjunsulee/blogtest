@@ -1,7 +1,7 @@
 ---
 title: 'ViewResolver'
 date: 2021-01-26 22:10:00
-category: 'TIL'
+category: 'JSP'
 draft: false
 ---
 ## 1. ViewResolver 란?

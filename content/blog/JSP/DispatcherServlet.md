@@ -1,11 +1,10 @@
 ---
 title: 'DispatcherServlet(1)'
 date: 2021-01-13 11:30:00
-category: 'TIL'
+category: 'JSP'
 draft: false
 ---
-
-### Front Controller 패턴
+## Front Controller 패턴
 
 사용자의 요청을 서블릿에 전달하기 위해서는 아래와 같이 web.xml에 서블릿을 등록하고 매핑하는 작업을 해야한다.
 
@@ -24,14 +23,14 @@ draft: false
 이런 문제를 해결해주는 디자인 패턴이 바로 _Front Controller 패턴_이다. 
 모든 요청에 대해 하나의 서블릿이 다 받아서 다른 컨트롤러로 위임시켜준다. 
 
-### DispatcherServlet이란
+## DispatcherServlet이란
 Spring MVC에서는 Front Controller 역할을 하는 서블릿을 만들어놓았다. 그게 바로 DispatcherServlet이다.
 간단하게 말하자면 모든 요청을 받아 실질적인 요청을 처리할 controller를 매핑하고 해당 요청 처리 결과를 Http Response 만드는 역할을 한다.
 //TO-DO DispatcherServlet에 대해 자세하게 정리할 필요가 있음. 
 
 
 
-### Context Hierarchy
+## Context Hierarchy
 
 ![mvc-hierarchy](./images/mvc-context-hierarchy.png)
 
@@ -48,7 +47,7 @@ DIspatcheServlet에서 Root WebApplicationContext를 상속받아 만든 Applica
 
 
 
-### DispatcherServlet 등록
+## DispatcherServlet 등록
 web.xml 아래와 같이 등록한다.
 
 ```xml

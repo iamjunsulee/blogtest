@@ -1,7 +1,7 @@
 ---
 title: '정적 팩토리 메서드(Static Factory Method)'
 date: 2021-04-14 11:44:00
-category: 'TIL'
+category: 'Java'
 draft: false
 ---
 우리가 보통 객체를 생성할 때 public 생성자를 많이 사용한다. 이 방법을 사용해서만 객체를 생성해야하는 것은 아니다. 그렇다면 다른 방법은 뭐가 있을까?

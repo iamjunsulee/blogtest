@@ -1,7 +1,7 @@
 ---
 title: 'Git과 Svn'
 date: 2021-01-13 11:17:13
-category: 'TIL'
+category: 'Git'
 draft: false
 ---
 

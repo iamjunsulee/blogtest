@@ -1,7 +1,7 @@
 ---
 title: 'Servlet'
 date: 2021-01-09 20:25:00
-category: 'TIL'
+category: 'JSP'
 draft: false
 ---
 ## 1. Servlet이란?
