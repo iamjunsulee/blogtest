@@ -1,7 +1,7 @@
 ---
 title: 'java.lang.unsupportedoperationexception 해결하기'
 date: 2022-01-14 13:30:00
-category: 'Error Solution'
+category: 'Troubleshooting'
 draft: false
 ---
 querydsl을 적용해보다가 java.lang.unsupportedoperationexception이라는 에러를 처음 접하게 되어 기록을 남기고자 한다.</br>
