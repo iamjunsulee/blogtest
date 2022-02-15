@@ -1,5 +1,5 @@
 ---
-title: Docker 설치하기전에
+title: Docker 설치하기 전에 WSL2 설치 및 활성화
 date: 2022-02-04 11:30:00
 category: 'Install'
 draft: false
